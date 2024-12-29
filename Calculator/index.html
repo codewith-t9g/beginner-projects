@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="calc">
+            <div id="input" aria-live="polite"></div> 
+        </div>
+        <div class="button-row">
+            <button class="new" aria-label="Clear">C</button>
+            <button class="new" aria-label="Delete last character">&lt;</button>
+            <button class="new" aria-label="Percentage">%</button>
+            <button class="new operator" aria-label="Divide">/</button>
+        </div>
+        <div class="button-row">
+            <button aria-label="7">7</button>
+            <button aria-label="8">8</button>
+            <button aria-label="9">9</button>
+            <button class="operator" aria-label="Multiply">*</button>
+        </div>
+        <div class="button-row">
+            <button aria-label="4">4</button>
+            <button aria-label="5">5</button>
+            <button aria-label="6">6</button>
+            <button class="operator" aria-label="Subtract">-</button>
+        </div>
+        <div class="button-row">
+            <button aria-label="1">1</button>
+            <button aria-label="2">2</button>
+            <button aria-label="3">3</button>
+            <button class="operator" aria-label="Add">+</button>
+        </div>
+        <div class="button-row">
+            <button aria-label="0">0</button>
+            <button aria-label="00">00</button>
+            <button aria-label="Decimal point">.</button>
+            <button class="new" aria-label="Calculate result">=</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script> 
+</body>
+</html>
