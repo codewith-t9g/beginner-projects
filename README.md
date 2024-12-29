@@ -41,9 +41,3 @@ Navigate to the project folder:
 
     Open index.html in your browser. There’s no server-side setup required for this basic project, as it's purely client-side.
 
-Usage
-
-To use this project, open the index.html file in your web browser. Follow these steps to interact with the project:
-
-    [Explain how the user can interact with the project, e.g., "Click the button to perform a calculation."]
-    [Explain how the user will get results or what they should expect, e.g., "The result will appear below the button after clicking."]
